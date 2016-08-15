@@ -21,11 +21,12 @@ info.centrality.network(graph, net = network.efficiency(graph), verbose = F)
 \item{verbose}{Logical. Whether computing information centrality of each node prints to monitor progress of a potentially long run-time. Defaults to FALSE.}
 }
 \description{
-Functions of to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metric for information centrality. Uses graphs functions as an extension of \code{\link[igraph]{igraph}}.
+Functions to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metric for information centrality. Uses graphs functions as an extension of \code{\link[igraph]{igraph}}.
 }
 \examples{
 
 #generate example graphs
+library("igraph")
 g1 <- make_ring(10)
 g2 <- make_star(10)
 

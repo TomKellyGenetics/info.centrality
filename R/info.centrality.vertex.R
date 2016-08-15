@@ -3,7 +3,7 @@
 ##'
 ##' @title Extensions to iGraph for Information Centrality
 ##'
-##' @description Functions of to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metric for information centrality. Uses graphs functions as an extension of \code{\link[igraph]{igraph}}.
+##' @description Functions to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metric for information centrality. Uses graphs functions as an extension of \code{\link[igraph]{igraph}}.
 ##'
 ##' @param graph An \code{\link[igraph]{igraph}} object. May be directed or weighted as long as a shortest path can be computed.
 ##' @param verbose Logical. Whether computing information centrality of each node prints to monitor progress of a potentially long run-time. Defaults to FALSE.
@@ -16,7 +16,7 @@ NULL
 ##' @examples
 ##'
 ##' #generate example graphs
-##' library("igraph)
+##' library("igraph")
 ##' g1 <- make_ring(10)
 ##' g2 <- make_star(10)
 ##'

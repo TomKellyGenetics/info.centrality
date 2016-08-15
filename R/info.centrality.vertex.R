@@ -1,38 +1,31 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Build and Reload Package:  'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
-
-##' @name Information Centrality functions
+##' @name Information Centrality Functions
 ##' @rdname info.centrality
 ##'
-##' @title Functions of to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metrig for information centrality. Uses graphs functions as an egtension of \code{\link[igraph]{igraph}}.
+##' @title Extensions to iGraph for Information Centrality
+##'
+##' @description Functions of to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metrig for information centrality. Uses graphs functions as an extension of \code{\link[igraph]{igraph}}.
 ##'
 ##' @param graph An \code{\link[igraph]{igraph}} object. May be directed or weighted as long as a shortest path can be computed.
 ##' @param verbose Logical. Whether computing information centrality of each node prints to monitor progress of a potentially long run-time. Defaults to FALSE.
 ##' @param net Numeric. Efficiency of the Network without an nodes removed. Defaults to computing for Graph given as input, can be given as a numeric if computed in advance to save run time.
-#'  @keywords graph network igraph centrality
-#'  @import igraph
+##' @keywords graph network igraph centrality
+##' @import igraph
 NULL
 
 ##' @rdname info.centrality
 ##' @examples
-##' g <- make_ring(10)
-##' distances(g)
-##' shortest_paths(g, 5)
-##' network.efficiency(g)
-##' g <- make_star(10)
-##' network.efficiency(g)
+##'
+##' #generate example graphs
+##' g1 <- make_ring(10)
+##' g2 <- make_star(10)
+##'
+##' #show network paths
+##' distances(g1)
+##' shortest_paths(g1, 5)
+##'
+##' #compute efficiency of full graphs
+##' network.efficiency(g1)
+##' network.efficiency(g2)
 ##' @export
 network.efficiency <- function(graph){
   if(is_igraph(graph)==F) warning("Please use a valid iGraph object")
@@ -46,10 +39,10 @@ network.efficiency <- function(graph){
 
 ##' @rdname info.centrality
 ##' @examples
-##' g <- make_ring(10)
-##' info.centrality.vertex(g)
-##' g <- make_star(10)
-##' info.centrality.vertex(g)
+##'
+##' #compute information centrality (relative efficency when removed) for each node
+##' info.centrality.vertex(g1)
+##' info.centrality.vertex(g2)
 ##' @export
 info.centrality.vertex <- function(graph, net=NULL, verbose=F){
   if(is_igraph(graph)==F) warning("Please use a valid iGraph object")
@@ -69,9 +62,9 @@ info.centrality.vertex <- function(graph, net=NULL, verbose=F){
 }
 ##' @rdname info.centrality
 ##' @examples
-##' g <- make_ring(10)
-##' info.centrality.network(g)
-##' g <- make_star(10)
-##' info.centrality.network(g)
+##'
+##' #compute total information centrality for a network
+##' info.centrality.network(g1)
+##' info.centrality.network(g2)
 ##' @export
 info.centrality.network <- function(graph, net=network.efficiency(graph), verbose=F) sum(info.centrality.vertex(graph))

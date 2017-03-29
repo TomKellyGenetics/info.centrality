@@ -1,4 +1,4 @@
-##Install
+## Install
 
 To get the iGraph package from CRAN:
 
@@ -13,7 +13,7 @@ To get the extensions from github:
 devtools::install_github("TomKellyGenetics/info.centrality")
 ```
 
-##Usage
+## Usage
 
 ```R
 #Compute efficiency of the network

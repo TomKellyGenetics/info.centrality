@@ -1,3 +1,5 @@
+[![Travis-CI Build Status](https://travis-ci.org/TomKellyGenetics/info.centrality.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/info.centrality)
+ 
 To get the iGraph package from CRAN:
 
 ```R

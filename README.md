@@ -1,5 +1,6 @@
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/info.centrality)](https://cran.r-project.org/package=info.centrality)
 [![Travis-CI Build Status](https://travis-ci.org/TomKellyGenetics/info.centrality.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/info.centrality)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/TomKellyGenetics/info.centrality?branch=master&svg=true)](https://ci.appveyor.com/project/TomKellyGenetics/info.centrality)
  
 ## Install
 

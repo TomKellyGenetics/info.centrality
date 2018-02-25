@@ -1,6 +1,6 @@
 Package: info.centrality
 Type: Package
-Title: Extensions to iGraph for Information Centrality
+Title: an R implementation of information centrality using igraph
 Version: 0.1.0.9000
 Author: Tom Kelly
 Maintainer: Tom Kelly <tom.kelly@postgrad.otago.ac.nz>
@@ -10,3 +10,4 @@ LazyData: TRUE
 Imports:
     igraph
 RoxygenNote: 6.0.1
+Suggests: testthat

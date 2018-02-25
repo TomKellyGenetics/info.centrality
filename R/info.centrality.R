@@ -7,7 +7,7 @@
 ##'
 ##' @param graph An \code{\link[igraph]{igraph}} object. May be directed or weighted as long as a shortest path can be computed.
 ##' @param verbose Logical. Whether computing information centrality of each node prints to monitor progress of a potentially long run-time. Defaults to FALSE.
-##' @param net Numeric. Efficiency of the Network without an nodes removed. Defaults to computing for Graph given as input, can be given as a numeric if computed in advance to save run time.
+##' @param net Numeric. Efficiency of the Network without any nodes removed. Defaults to computing for Graph given as input, can be given as a numeric if computed in advance to save run time.
 ##' @keywords graph network igraph centrality
 ##' @import igraph
 NULL

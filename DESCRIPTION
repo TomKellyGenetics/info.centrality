@@ -5,8 +5,8 @@ Version: 0.1.0
 Author: Tom Kelly
 Maintainer: Tom Kelly <tom.kelly@postgrad.otago.ac.nz>
 Description: Functions of to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metric for information centrality. Uses graphs functions as an extension of igraph.
-License: GPL-3
+License: GPL-3 + file LICENSE
 LazyData: TRUE
 Imports:
     igraph
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

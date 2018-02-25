@@ -2,7 +2,7 @@
 [![Travis-CI Build Status](https://travis-ci.org/TomKellyGenetics/info.centrality.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/info.centrality)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/TomKellyGenetics/info.centrality?branch=master&svg=true)](https://ci.appveyor.com/project/TomKellyGenetics/info.centrality)
 
-# info.centrailty
+# info.centrality 0.1
 
 ### an R implementation of information centrality using igraph
  

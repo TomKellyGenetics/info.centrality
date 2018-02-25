@@ -4,7 +4,7 @@ citEntry(entry = "Manual",
   title        = "{info.centrality}: an R implementation of information centrality using igraph",
   author       = personList(as.person("S. Thomas Kelly")), 
   year         = "2018",
-  note         = "R package version 0.1.0"
+  note         = "R package version 0.1.0",
   url          = "https://github.com/TomKellyGenetics/info.centrality",
 
   textVersion  =

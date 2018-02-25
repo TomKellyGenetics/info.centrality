@@ -1,7 +1,7 @@
 Package: info.centrality
 Type: Package
 Title: Extensions to iGraph for Information Centrality
-Version: 0.1.0
+Version: 0.1.0.9000
 Author: Tom Kelly
 Maintainer: Tom Kelly <tom.kelly@postgrad.otago.ac.nz>
 Description: Functions of to compute the information centrality of a vertex (node) and network respectively. Includes a network efficiency measure to compute as a metric for information centrality. Uses graphs functions as an extension of igraph.

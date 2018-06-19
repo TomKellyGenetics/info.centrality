@@ -2,7 +2,7 @@
 [![Travis-CI Build Status](https://travis-ci.org/TomKellyGenetics/info.centrality.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/info.centrality)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/TomKellyGenetics/info.centrality?branch=master&svg=true)](https://ci.appveyor.com/project/TomKellyGenetics/info.centrality)
 [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
-[![codecov](https://codecov.io/gh/TomKellyGenetics/igraph.extensions/branch/master/graph/badge.svg)](https://codecov.io/gh/TomKellyGenetics/igraph.extensions)
+[![codecov](https://codecov.io/gh/TomKellyGenetics/info.centrality/branch/master/graph/badge.svg)](https://codecov.io/gh/TomKellyGenetics/ifo.centrality)
 
 # info.centrality 0.1
 
